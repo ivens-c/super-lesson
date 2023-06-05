@@ -1,3 +1,9 @@
+# pycacache
 **/__pycache__/
+# I don't want anyone to see these files
 src/modules/tests/*.txt
+# except thise
 !src/modules/tests/test3.txt
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
